@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -35,8 +35,10 @@ a {
 
 
 .Portfolio p {
+    font-size: x-large;
     text-align: center;
     margin-bottom: 100px;
+    margin-top: 30px;
 
 }
 
@@ -57,6 +59,7 @@ a {
 }
 
 .tag {
+    font-size: x-large;
     box-sizing: border-box;
 
     background-image: url(../img/bg_detalhe.png);
