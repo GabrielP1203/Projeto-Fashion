@@ -11,7 +11,7 @@ a{
 }
 
 .cabecalho img{
-    
+
 }
 
 
@@ -26,5 +26,33 @@ a{
 .Portfolio img{
     width: 200px;
     height: 200px;
+    box-sizing: border-box;
 }
+
+.container{
+    box-sizing: border-box;
+    background-color: #003d52;
+    color: white;
+    
+}
+
+.tag{
+    box-sizing: border-box;
+    background-color: #003d52;
+    color: white;
+}
+
+.mapa{
+    box-sizing: border-box;
+}
+
+.rodape{
+    font-size: large;
+    text-align: center;
+    background-color: #003d52;
+}
+
+
+
+
 
