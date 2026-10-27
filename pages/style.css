@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+
+a{
+    inline-size: auto;
+    padding: 2px;
+    text-decoration: none;
+
+}
+
+.cabecalho img{
+    
+}
+
+
+
+
+
+
+.Portfolio h1, p{
+    text-align: center;
+}
+
+.Portfolio img{
+    width: 200px;
+    height: 200px;
+}
+
