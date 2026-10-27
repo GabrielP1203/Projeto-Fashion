@@ -2,57 +2,87 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-a{
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    min-height: 20%;
+}
+
+.imagem1 {
+    width: 1000px;
+    height: 450px;
+    margin-top: 40px;
+}
+
+a {
     inline-size: auto;
     padding: 2px;
     text-decoration: none;
+    background-color: #003d52;
 
 }
 
-.cabecalho img{
+
+
+.Portfolio p {
+    text-align: center;
+    margin-bottom: 100px;
 
 }
 
+.Portfolio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
 
+}
 
+.container {
+    width: 90%;
+    max-width: 1000px;
 
+    margin: auto;
+}
 
+.tag {
+    box-sizing: border-box;
 
-.Portfolio h1, p{
+    background-image: url(../img/bg_detalhe.png);
+    background-position: right;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #003d52;
+    padding: 100px 20px;
+
+}
+
+.titulo3 {
     text-align: center;
 }
 
-.Portfolio img{
-    width: 200px;
-    height: 200px;
-    box-sizing: border-box;
+
+.mapa {
+    margin-bottom: 25px;
 }
 
-.container{
-    box-sizing: border-box;
-    background-color: #003d52;
-    color: white;
-    
-}
-
-.tag{
-    box-sizing: border-box;
-    background-color: #003d52;
-    color: white;
-}
-
-.mapa{
-    box-sizing: border-box;
-}
-
-.rodape{
+.rodape {
     font-size: large;
     text-align: center;
     background-color: #003d52;
+    padding: 15px;
+    margin-bottom: 30px;
+
+
 }
-
-
-
-
-
